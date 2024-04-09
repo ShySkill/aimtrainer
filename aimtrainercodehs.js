@@ -1,5 +1,3 @@
-//all of the dialogue
-//For tommorow, set the time to be a different text object then the rest, and create a restart button so that you can keep on playing without refreshing.
 println("Welcome to the CodeHs Aimtrainer! This is a program designed to train your aim for FPS games!" );
 println("-----------------------------------------------------------------------------");
 println("Click as many targets as you can! Your accuracy will be displayed at the end!" );
@@ -116,7 +114,7 @@ function checkForClick(e){
         
     }else{
         if(c == 0){
-        clicks++;
+            clicks++;
         }
     }
 }
